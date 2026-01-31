@@ -1,0 +1,78 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #373636, #d092bf);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#inputNum{
+    padding: 10px;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+#random{
+    padding: 20px 2px 0px 2px;
+    font-size: large;
+    color:white;
+}
+button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+
+#btnCheck{
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    background: #d092bf;
+    font-weight: bold;
+}
+
+#checker{
+    color: white;
+    font-family: fantasy;
+    font-size: x-large;
+}
+#btnCheck:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* New Game button */
+#newGameBtn {
+    margin-left: 12px;
+    background: linear-gradient(135deg, #b983ff, #8e7cc3);
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#newGameBtn:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+#newGameBtn:active {
+    transform: scale(0.95);
+}
