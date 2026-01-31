@@ -1,7 +1,6 @@
 body{
-    min-height: 100vh;
-    width: 100%;
-    background: linear-gradient(to bottom, #373636, #d092bf);
+    min-height: 100dvh;
+    background: linear-gradient(to bottom, #373636, #6447cc);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +45,7 @@ button {
     padding: 10px;
     font-size: large;
     border-radius: 10px;
-    background: #d092bf;
+    background: #553ab4;
     font-weight: bold;
 }
 
